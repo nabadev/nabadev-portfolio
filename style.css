@@ -1,0 +1,145 @@
+
+/* Imported the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Spartan:wght@400;700&display=swap');
+
+/* reset css */
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 1.6rem;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+
+:root {
+    --primary-font: 'League Spartan', sans-serif;
+    --secondary-font: 'Lato', sans-serif;
+    --primary-green-color: #42e2b8;
+    --secondary-black-color: #161B1C;
+    --bg-color: #1A2228;
+    --text-white-color: #ffffff;
+    --text-black-color: #000000;
+}
+
+/* Basic Styles */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--primary-font);
+    color: var(--text-white-color);
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-green-color)
+}
+
+button {
+    font-family: var(--primary-font);
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+hr {
+    width: 13%;
+    background-color: var(--primary-green-color);
+}
+
+div {
+    width: 100%;
+}
+
+/* Utility classes */
+
+.nd-section {
+    width: 100%;
+    height: 100%;
+    padding: 3.75rem;
+}
+
+.nd-container {
+    width: 100%;
+    height: 100%;
+}
+
+.nd-row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nd-h1-heading {
+    font-size: 3.25rem;
+}
+
+.nd-h2-heading  {
+    font-size: 2.75rem;
+}
+
+.nd-h3-heading  {
+    font-size: 2.25rem;
+}
+
+.nd-h4-heading  {
+    font-size: 1.75rem;
+}
+
+.nd-body-text {
+    font-size: 1.125rem;
+}
+
+.nd-text-center {
+    text-align: center;
+}
+
+.nd-primary-btn {
+    font-family: var(--primary-font);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color: var(--primary-green-color);
+    color: var(--text-white-color);
+    border-radius: none;
+    padding: 8px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nd-primary-btn:hover {
+    background-color: #ffffff;
+    color: var(--text-black-color);
+}
+
+.nb-secondary-btn {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid var(--primary-green-color);
+    border-radius: none;
+}
+
+.nb-secondary-btn:hover {
+    background-color: var(--primary-green-color);
+}
+
+.nd-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
