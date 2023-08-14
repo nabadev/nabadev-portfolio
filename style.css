@@ -243,8 +243,7 @@ hr {
 }
 
 #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-text-container .nd-h3-heading,
-.nd-h1-heading,
-.nd-body-text {
+.nd-h1-heading {
     line-height: 3.8rem !important;
 }
 
@@ -259,10 +258,15 @@ hr {
 
 #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-text-container .nd-hero-body-text {
     font-size: 1.5rem;
+    margin-top: 20px;
 }
 
 #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-cta-container {
     margin-top: 2.25rem;
+}
+
+#nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-cta-container a {
+    text-align: center;
 }
 
 #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-cta-container .nd-hero-secondary-cta {
@@ -563,7 +567,32 @@ hr {
         border: none;
     }
 
-    
+    /* tablet Hero section  styles */
+
+    #nd-hero-section {
+        padding: 50px 0px 0px 0px;
+    }
+
+    #nd-hero-section .nd-hero-container .nd-hero-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-text-container .nd-h1-heading {
+        /* font-size: 4rem; */
+    }
+
+    #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-text-container .nd-h3-heading {
+        /* font-size: 3rem; */
+    }
+
+    #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-text-container .nd-h3-heading,
+    .nd-h1-heading,
+    .nd-body-text {
+        line-height: 3.8rem !important;
+    }
 
 }
 
