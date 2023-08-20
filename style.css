@@ -159,7 +159,6 @@ hr {
 
 #nd-header {
     width: 100%;
-    /* background-color: violet; */
 }
 
 #nd-navbar {
@@ -339,7 +338,6 @@ hr {
 #nd-about-section .nd-about-container .nd-about-row {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 #nd-about-section .nd-about-container .nd-about-row .nd-about-img-column {
