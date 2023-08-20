@@ -623,9 +623,14 @@ hr {
     }
 
     /* Mobile about section */
-
     #nd-about-section {
-        padding: 40px 0px 60px 0px;
+        background-color: var(--bg-color);
+        padding: 40px 0px 80px 0px;
+    }
+
+    #nd-about-section .nd-about-container .nd-about-row {
+        display: flex;
+        flex-direction: column;
     }
 
     #nd-about-section .nd-about-container .nd-about-row .nd-about-text-column .nd-about-cta-container a {
@@ -736,7 +741,7 @@ hr {
         border: none;
     }
 
-    /* tablet Hero section  styles */
+    /* Tablet Hero section  styles */
 
     #nd-hero-section {
         padding: 50px 0px 0px 0px;
