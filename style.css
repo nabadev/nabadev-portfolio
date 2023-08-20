@@ -646,7 +646,6 @@ hr {
     #nd-about-section .nd-about-container .nd-about-row .nd-about-img-column img {
         max-width: 90%;
     }
-
     /* Mobile projects sections styles */
     #nd-projects-section .nd-projects-conatiner .nd-project-item-row {
         flex-direction: column;
