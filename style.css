@@ -350,7 +350,7 @@ hr {
 #nd-about-section .nd-about-container .nd-about-row .nd-about-img-column img {
     max-width: 75%;
     height: auto;
-   text-align: center;
+    text-align: center;
 }
 
 #nd-about-section .nd-about-container .nd-about-row .nd-about-text-column {
@@ -529,7 +529,7 @@ hr {
         color: var(--text-white-color);
         margin-top: 0px;
     }
-    
+
 
     #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-text-container .nd-h1-heading {
         font-size: 3.5rem;
@@ -557,7 +557,7 @@ hr {
         margin-top: 0px;
     }
 
-    #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-img-column .nd-hero-img-container  {
+    #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-img-column .nd-hero-img-container {
         padding-top: 30px;
     }
 
@@ -580,26 +580,26 @@ hr {
         background-position: 50% 100%;
     }
 
-/* Mobile about section */
-    
-#nd-about-section .nd-about-container .nd-about-row {
-    display: flex;
-    flex-direction: column;
-}
+    /* Mobile about section */
 
-#nd-about-section .nd-about-container .nd-about-row .nd-about-text-column .nd-about-cta-container a {
-    display: block;
-    width: 60%;
-}
+    #nd-about-section .nd-about-container .nd-about-row {
+        display: flex;
+        flex-direction: column;
+    }
 
-#nd-about-section .nd-about-container .nd-about-row .nd-about-text-column .nd-about-cta-container .nd-about-secondary-btn {
-    margin-left: 0px;
-    margin-top: 20px;
-}
+    #nd-about-section .nd-about-container .nd-about-row .nd-about-text-column .nd-about-cta-container a {
+        display: block;
+        width: 60%;
+    }
 
-#nd-about-section .nd-about-container .nd-about-row .nd-about-img-column img {
-    max-width: 90%;
-}
+    #nd-about-section .nd-about-container .nd-about-row .nd-about-text-column .nd-about-cta-container .nd-about-secondary-btn {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    #nd-about-section .nd-about-container .nd-about-row .nd-about-img-column img {
+        max-width: 90%;
+    }
 
 }
 
@@ -691,7 +691,7 @@ hr {
         color: var(--text-white-color);
         margin-top: 0px;
     }
-    
+
 
     #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-heading-column .nd-hero-text-container .nd-h3-heading,
     .nd-h1-heading {
@@ -702,7 +702,7 @@ hr {
         margin: 30px 0px 60px 0px;
     }
 
-    #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-img-column .nd-hero-img-container  {
+    #nd-hero-section .nd-hero-container .nd-hero-row .nd-hero-img-column .nd-hero-img-container {
         padding-top: 40px;
     }
 
