@@ -14,7 +14,7 @@
     <header id="nd-header">
         <nav id="nd-navbar">
             <div id="nd-navbar-logo">
-                <a href="#">Naba<span style="color: #42e2b8;">{dev}</span></a>
+                <a href="#">Naba<span class="logo-dev-color">{dev}</span></a>
             </div>
             <label for="nd-checkbox">
                 <div class="nd-navbar-mobile-hamburger">
@@ -29,14 +29,16 @@
                 <li class="nd-navbar-menu-item"><a href="#nd-about-section">About Me</a></li>
                 <li class="nd-navbar-menu-item"><a href="#nd-projects-section">Portfolio</a></li>
                 <li class="nd-navbar-menu-item"><a href="#nd-contact-section">Contact Us</a></li>
-                <li class="nd-navbar-menu-item"><a href="#nd-contact-section" class="nd-primary-btn nd-navbar-cta">Hire Me</a></li>
+                <li class="nd-navbar-menu-item"><a href="#nd-contact-section" class="nd-primary-btn nd-navbar-cta">Hire
+                        Me</a></li>
             </ul>
             <ul class="nd-navbar-mobile-menu">
                 <li class="nd-navbar-menu-item"><a href="#nd-header">Home</a></li>
                 <li class="nd-navbar-menu-item"><a href="#nd-about-section">About Me</a></li>
                 <li class="nd-navbar-menu-item"><a href="#nd-projects-section">Portfolio</a></li>
                 <li class="nd-navbar-menu-item"><a href="#nd-contact-section">Contact Us</a></li>
-                <li class="nd-navbar-menu-item nd-navbar-cta"><a href="#nd-contact-section" class="nd-primary-btn nd-navbar-cta">Hire
+                <li class="nd-navbar-menu-item nd-navbar-cta"><a href="#nd-contact-section"
+                        class="nd-primary-btn nd-navbar-cta">Hire
                         Me</a></li>
             </ul>
         </nav>
@@ -54,8 +56,8 @@
                         <p class="nd-body-text nd-hero-body-text">A passionate self taught web developer</p>
                     </div>
                     <div class="nd-hero-cta-container">
-                        <a href="#" class="nd-primary-btn nd-hero-primary-cta">Download CV</a><a href="#"
-                            class="nd-secondary-btn nd-hero-secondary-cta">My Projects</a>
+                        <a href="#" class="nd-primary-btn nd-hero-primary-cta">Download CV</a>
+                        <a href="#nd-projects-section" class="nd-secondary-btn nd-hero-secondary-cta">My Projects</a>
                     </div>
                 </div>
                 <div class="nd-column nd-hero-img-column">
@@ -94,7 +96,7 @@
                         <div class="nd-skill-bar-item nd-skill-bar-git"></div>
                     </div>
                     <div class="nd-about-cta-container">
-                        <a href="#" class="nd-primary-btn">Hire Now</a>
+                        <a href="#nd-contact-section" class="nd-primary-btn">Hire Now</a>
                         <a href="#" class="nd-secondary-btn nd-about-secondary-btn">More About Me</a>
                     </div>
                 </div>
@@ -121,7 +123,8 @@
             </div>
             <div class="nd-row nd-project-item-row">
                 <div class="nd-project-item-img-col">
-                    <img src="assets/img/coffee-corner-project.png" alt="coffee-corner-project">
+                    <a href="https://nabadev.github.io/coffee-corner/" target="_blank"><img
+                            src="assets/img/coffee-corner-project.png" alt="coffee-corner-project"></a>
                 </div>
                 <div class="nd-project-item-text-col">
                     <h3 class="nd-h3-heading">Coffee Corner</h3>
@@ -130,8 +133,11 @@
                         After that, I built this step by step without following any Youtube Video tutorial. I mainly
                         used here CSS Flexbox property and Flexbox really helped me to make the website responsive
                         easily. I also built the mobile hamburger only using CSS.</p>
-                    <p class="nd-body-text nd-project-tech-stack"><strong>HTML,&nbsp;CSS,&nbsp;CSS Flexbox</strong></p>
-                    <a href="#" class="nd-primary-btn">View Project</a>
+                    <p class="nd-body-text nd-project-tech-stack">Tech Stack Used</p>
+                    <p class="nd-body-text nd-project-tech-stack-item"><strong>HTML,&nbsp;CSS,&nbsp;CSS Flexbox</strong>
+                    </p>
+                    <a href="https://nabadev.github.io/coffee-corner/" target="_blank" class="nd-primary-btn">View
+                        Project</a>
                 </div>
             </div>
             <div class="nd-row nd-project-item-row">
@@ -141,11 +147,15 @@
                         built this website step by step without following any Youtube Video tutorials. I mainly used
                         here CSS Grid and I tried to create a complex masonry layout using the CSS Grid. I have achieved
                         a similar layout to the masonry layout. The website is responsive on all devices.</p>
-                    <p class="nd-body-text nd-project-tech-stack"><strong>HTML,&nbsp;CSS,&nbsp;CSS Grid</strong></p>
-                    <a href="#" class="nd-primary-btn">View Project</a>
+                    <p class="nd-body-text nd-project-tech-stack">Tech Stack Used</p>
+                    <p class="nd-body-text nd-project-tech-stack-item"><strong>HTML,&nbsp;CSS,&nbsp;CSS Grid</strong>
+                    </p>
+                    <a href="https://nabadev.github.io/naba-fitness-blog/" target="_blank" class="nd-primary-btn">View
+                        Project</a>
                 </div>
                 <div class="nd-project-item-img-col nd-second-project-item-img-col">
-                    <img src="assets/img/fitness-blog-project.png" alt="coffee-corner-project">
+                    <a href="https://nabadev.github.io/naba-fitness-blog/" target="_blank"><img
+                            src="assets/img/fitness-blog-project.png" alt="coffee-corner-project"></a>
                 </div>
             </div>
         </div>
@@ -160,7 +170,7 @@
                 <div class="nd-cta-col">
                     <p class="nd-body-text">Have any project in mind?</p>
                     <h2 class="nd-h2-heading">I'm Availabe for Freelancing</h2>
-                    <a href="#" class="nd-primary-btn nd-cta-section-btn">Hire Now!</a>
+                    <a href="#nd-contact-section" class="nd-primary-btn nd-cta-section-btn">Hire Now!</a>
                 </div>
             </div>
         </div>
@@ -192,33 +202,38 @@
         </div>
     </section>
 
-<!-- Contact section ends here -->
+    <!-- Contact section ends here -->
 
-<!-- Footer section starts here -->
+    <!-- Footer section starts here -->
 
-<footer id="nd-footer-section">
-    <div class="nd-container nd-footer-container">
-        <div class="nd-row nd-footer-heading-row">
-            <h3 class="nd-h3-heading">Contact Me</h3>
-            <hr class="nd-nd-footer-divider">
-        </div>
-        <div class="nd-row nd-footer-social-email-row">
-            <div class="nd-footer-social-col">
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
+    <footer id="nd-footer-section">
+        <div class="nd-container nd-footer-container">
+            <div class="nd-row nd-footer-heading-row">
+                <h3 class="nd-h3-heading">Contact Me</h3>
+                <hr class="nd-nd-footer-divider">
             </div>
-            <div class="nd-footer-email-col">
-                <i class="fa fa-envelope"></i><a href="#">info@nabadev.com</a>
+            <div class="nd-row nd-footer-social-email-row">
+                <div class="nd-footer-social-col">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
+                <div class="nd-footer-email-col">
+                    <i class="fa fa-envelope"></i><a href="#">info@nabadev.com</a>
+                </div>
             </div>
         </div>
-    </div>
-    <a href="#nd-header"><div class="nd-back-to-top-btn"><i class="fa fa-arrow-up"></i></div></a>
-    <div class="nd-footer-copyright-bar">
-        <p class="nd-body-text">Copyright&copy;2023 <a href="#"><strong>Nabadev</strong></a> | All rights reserved</p>
-    </div>
-</footer>
+        <a href="#nd-header">
+            <div class="nd-back-to-top-btn"><i class="fa fa-arrow-up"></i></div>
+        </a>
+        <div class="nd-footer-copyright-bar">
+            <p class="nd-body-text">Copyright&copy;2023 <a href="#"><strong>Nabadev</strong></a> | All rights reserved
+            </p>
+        </div>
+    </footer>
+    <!-- Footer section ends here -->
+
 </body>
 
 </html>
